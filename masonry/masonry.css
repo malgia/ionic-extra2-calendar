@@ -1,0 +1,15 @@
+md-masonry {
+  display: flex;
+  flex-direction: column; }
+  md-masonry md-masonry-row {
+    display: flex;
+    flex-direction: row; }
+    md-masonry md-masonry-row md-masonry-item {
+      display: flex;
+      flex: 1; }
+      md-masonry md-masonry-row md-masonry-item::after {
+        content: '';
+        display: block;
+        padding-bottom: 100%; }
+
+/*# sourceMappingURL=masonry.css.map */

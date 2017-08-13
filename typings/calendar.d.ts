@@ -3,7 +3,6 @@ import { ControlValueAccessor } from '@angular/forms';
 import { Observable } from 'rxjs/Observable';
 import { Form } from 'ionic-angular';
 import * as moment from 'moment';
-import 'moment/locale/es.js';
 export declare const ION_CALENDAR_CONTROL_VALUE_ACCESSOR: any;
 export declare type IonCalendarViewMode = ('month' | 'year' | 'decade');
 export declare type IonCalendarPeriodType = ('day' | 'week' | 'month' | 'year');

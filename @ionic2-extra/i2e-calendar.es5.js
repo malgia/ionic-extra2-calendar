@@ -10,6 +10,8 @@ import { NG_VALUE_ACCESSOR } from '@angular/forms';
 import { locale, updateLocale } from 'moment';
 import moment__default from 'moment';
 import * as moment from 'moment';
+import 'moment/locale/es.js';
+moment.locale('es');
 var momentConstructor = moment__default || moment;
 var ION_CALENDAR_CONTROL_VALUE_ACCESSOR = {
     provide: NG_VALUE_ACCESSOR,

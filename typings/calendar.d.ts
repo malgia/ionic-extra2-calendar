@@ -1,4 +1,3 @@
-/// <reference types="moment" />
 import { AfterContentInit, EventEmitter, ModuleWithProviders, OnInit, OnDestroy } from '@angular/core';
 import { ControlValueAccessor } from '@angular/forms';
 import { Observable } from 'rxjs/Observable';

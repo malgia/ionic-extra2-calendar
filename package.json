@@ -1,14 +1,63 @@
 {
-  "name": "@ionic2-extra/calendar",
-  "version": "0.0.26",
-  "description": "Calendar widget built on Ionic 2",
-  "main": "./calendar.umd.js",
-  "module": "./index.js",
-  "typings": "./index.d.ts",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/gnucoop/ionic2-extra.git"
+  "_args": [
+    [
+      {
+        "raw": "@ionic2-extra/calendar@^0.1.1",
+        "scope": "@ionic2-extra",
+        "escapedName": "@ionic2-extra%2fcalendar",
+        "name": "@ionic2-extra/calendar",
+        "rawSpec": "^0.1.1",
+        "spec": ">=0.1.1 <0.2.0",
+        "type": "range"
+      },
+      "/home/malgia/trabajo/simpleride/simple-ride"
+    ]
+  ],
+  "_from": "@ionic2-extra/calendar@>=0.1.1 <0.2.0",
+  "_id": "@ionic2-extra/calendar@0.1.1",
+  "_inCache": true,
+  "_location": "/@ionic2-extra/calendar",
+  "_nodeVersion": "7.7.4",
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/calendar-0.1.1.tgz_1490800361219_0.9380204088520259"
   },
+  "_npmUser": {
+    "name": "ionic2-extra",
+    "email": "dev@gnucoop.com"
+  },
+  "_npmVersion": "4.1.2",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "@ionic2-extra/calendar@^0.1.1",
+    "scope": "@ionic2-extra",
+    "escapedName": "@ionic2-extra%2fcalendar",
+    "name": "@ionic2-extra/calendar",
+    "rawSpec": "^0.1.1",
+    "spec": ">=0.1.1 <0.2.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/@ionic2-extra/calendar/-/calendar-0.1.1.tgz",
+  "_shasum": "6de2aa9bf34b70cba0db6ca815a03d27dfc55f1e",
+  "_shrinkwrap": null,
+  "_spec": "@ionic2-extra/calendar@^0.1.1",
+  "_where": "/home/malgia/trabajo/simpleride/simple-ride",
+  "bugs": {
+    "url": "https://github.com/gnucoop/ionic2-extra/issues"
+  },
+  "dependencies": {},
+  "description": "Calendar widget built on Ionic 2",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "6de2aa9bf34b70cba0db6ca815a03d27dfc55f1e",
+    "tarball": "https://registry.npmjs.org/@ionic2-extra/calendar/-/calendar-0.1.1.tgz"
+  },
+  "es2015": "./@ionic2-extra/i2e-calendar.js",
+  "homepage": "https://github.com/gnucoop/ionic2-extra#readme",
   "keywords": [
     "ionic",
     "components",
@@ -16,11 +65,25 @@
     "datepicker"
   ],
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/gnucoop/ionic2-extra/issues"
-  },
-  "homepage": "https://github.com/gnucoop/ionic2-extra#readme",
+  "main": "./bundles/i2e-calendar.umd.js",
+  "maintainers": [
+    {
+      "name": "ionic2-extra",
+      "email": "dev@gnucoop.com"
+    }
+  ],
+  "module": "./@ionic2-extra/i2e-calendar.es5.js",
+  "name": "@ionic2-extra/calendar",
+  "optionalDependencies": {},
   "peerDependencies": {
-    "moment": "^2.17.1"
-  }
+    "moment": "^2.18.1"
+  },
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gnucoop/ionic2-extra.git"
+  },
+  "scripts": {},
+  "typings": "./i2e-calendar.d.ts",
+  "version": "0.1.1"
 }
